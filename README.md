@@ -27,6 +27,8 @@ So we can put the shellcode at 0x200 offset.And then put the original signed ima
 And then change the payload offset at the cert header.
 
 If you put the shellcode into TRUSTOS,you can gain EL3 code execution.
+
+Thanks to @Tomking062 and its tools,this exploit can work via flashing the modified image into the partition or directly loading it in download mode.
 ## DISCLAIMER
 
 This is just a poc.
