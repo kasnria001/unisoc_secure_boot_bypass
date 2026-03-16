@@ -26,7 +26,7 @@ So we can put the shellcode at 0x200 offset.And then put the original signed ima
 
 And then change the payload offset at the cert header.
 
-
+If you put the shellcode into TRUSTOS,you can gain EL3 code execution.
 ## DISCLAIMER
 
 This is just a poc.
